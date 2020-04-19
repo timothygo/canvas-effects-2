@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  display: block;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  opacity: 0.15;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+
+  user-select: none;
+}
